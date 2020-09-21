@@ -1,0 +1,25 @@
+<NotDefinedKeywordsMsg@Popup>:
+    auto_dismiss: False
+    Label:
+        text: 'These keywords are not defined'
+
+
+<IsAgreeToDelMsg@Popup>:
+    id: is_agree_to_del_msg
+    title: 'Is Agree?'
+    auto_dismiss: False
+    count_deleting: 1
+    size_hint: None, None
+    size: 300, 300
+    BoxLayout:
+        orientation: 'vertical'
+        Label:
+            text: 'Are you agree to delete {} record(s)?'.format(is_agree_to_del_msg.count_deleting)
+        BoxLayout:
+            size_hint_y: 0.3
+            Button:
+                text: 'Yes'
+                on_release: app.root.ids.main_window.del_records(); is_agree_to_del_msg.dismiss()
+            Button:
+                text: 'No'
+                on_release: is_agree_to_del_msg.dismiss()

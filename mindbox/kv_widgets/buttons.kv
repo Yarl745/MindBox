@@ -1,0 +1,25 @@
+#:import Color kivy.utils.get_color_from_hex
+
+
+<FileOrDirButton@BoxLayout>:
+    file_button: file_button
+    dir_button: dir_button
+    orientation: 'horizontal'
+    is_file: True if file_button.state == 'down' else False
+    ToggleButton:
+        id: file_button
+        text: 'File'
+        size_hint_x: .5
+        state: 'normal' if dir_button.state=='down' else 'down'
+    ToggleButton:
+        id: dir_button
+        text: 'Directory'
+        size_hint_x: .5
+        state: 'normal' if file_button.state=='down' else 'down'
+
+
+<Button>:
+    background_color: Color('#4a4a40') if self.state == 'normal' else Color('#37a354')
+
+
+

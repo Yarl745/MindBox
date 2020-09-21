@@ -1,0 +1,29 @@
+#:include kv_widgets/textinputs.kv
+#:include kv_widgets/buttons.kv
+
+
+<UpdateWindow@Screen>:
+    id: update_window
+    name_text_input: name_text_input
+    keywords_text_input: keywords_text_input
+    scr_manager: update_window.manager
+    on_pre_enter: update_window.upload_record_data()
+    BoxLayout:
+        size_hint: None, None
+        size: 600, 500
+        pos_hint: {'center_x': .5, 'center_y': .5}
+        orientation: 'vertical'
+        padding: 50
+        spacing: 20
+        CustomTextInput:
+            id: name_text_input
+            multiline: False
+            on_focus: if not name_text_input.focus and not keywords_text_input.focus: update_window.config_keyboard()
+        CustomTextInput:
+            id: keywords_text_input
+            on_focus: if not name_text_input.focus and not keywords_text_input.focus: update_window.config_keyboard()
+        Button:
+            font_size: 20
+            text: "Update record"
+            on_release:
+                update_window.update_record()

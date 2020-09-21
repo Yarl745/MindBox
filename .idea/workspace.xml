@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6c9497fe-fa7c-4bba-8caf-65f8521310d6" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Jarvis" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="D:\PROGRAMMING\PYTHON\PROJECTS\MindBox\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1efmShC4gN0uG6bcBdJ0qhFOu86" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\ПРОГРАММИРОВАНИЕ\PYTHON\PROJECTS\Jarvis\jarvis\windows" />
+      <recent name="D:\ПРОГРАММИРОВАНИЕ\PYTHON\PROJECTS\Jarvis\jarvis\commands" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\ПРОГРАММИРОВАНИЕ\PYTHON\PROJECTS\Jarvis\jarvis\widgets" />
+      <recent name="D:\ПРОГРАММИРОВАНИЕ\PYTHON\PROJECTS\Jarvis\jarvis" />
+      <recent name="D:\ПРОГРАММИРОВАНИЕ\PYTHON\PROJECTS\Jarvis\jarvis\commands" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.main (1)">
+    <configuration name="db_worker" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Jarvis" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/jarvis" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/jarvis/db_worker.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="helper (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Jarvis" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mindbox" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mindbox/helper.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="helper" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Jarvis" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/jarvis" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/jarvis/helper.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Jarvis" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mindbox" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mindbox/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Jarvis" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/jarvis" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/jarvis/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.main (1)" />
+        <item itemvalue="Python.helper (1)" />
+        <item itemvalue="Python.main" />
+        <item itemvalue="Python.helper" />
+        <item itemvalue="Python.db_worker" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6c9497fe-fa7c-4bba-8caf-65f8521310d6" name="Default Changelist" comment="" />
+      <created>1594721022164</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1594721022164</updated>
+      <workItem from="1594721023660" duration="10841000" />
+      <workItem from="1594809532620" duration="6988000" />
+      <workItem from="1594877451841" duration="225000" />
+      <workItem from="1594878392888" duration="5297000" />
+      <workItem from="1594995199651" duration="8938000" />
+      <workItem from="1595244273674" duration="4918000" />
+      <workItem from="1595326075030" duration="35587000" />
+      <workItem from="1595690241244" duration="6074000" />
+      <workItem from="1595761959023" duration="1465000" />
+      <workItem from="1595848209876" duration="15172000" />
+      <workItem from="1596021474389" duration="5016000" />
+      <workItem from="1596199912462" duration="1717000" />
+      <workItem from="1597051654970" duration="10171000" />
+      <workItem from="1597228202568" duration="11859000" />
+      <workItem from="1597314994919" duration="21762000" />
+      <workItem from="1597476019032" duration="19250000" />
+      <workItem from="1597564104135" duration="8340000" />
+      <workItem from="1597655205087" duration="20147000" />
+      <workItem from="1597827583310" duration="13667000" />
+      <workItem from="1598275271755" duration="3388000" />
+      <workItem from="1598342186935" duration="6030000" />
+      <workItem from="1598529706947" duration="5035000" />
+      <workItem from="1598605962905" duration="6813000" />
+      <workItem from="1598698668425" duration="3973000" />
+      <workItem from="1598974305030" duration="4357000" />
+      <workItem from="1599048261477" duration="3732000" />
+      <workItem from="1599302924854" duration="18815000" />
+      <workItem from="1599403517211" duration="1839000" />
+      <workItem from="1599570105959" duration="2427000" />
+      <workItem from="1599636738669" duration="598000" />
+      <workItem from="1599908155134" duration="598000" />
+      <workItem from="1600078347979" duration="1174000" />
+      <workItem from="1600687035444" duration="264000" />
+      <workItem from="1600687323400" duration="233000" />
+      <workItem from="1600687652976" duration="215000" />
+      <workItem from="1600687901880" duration="494000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Jarvis$helper__1_.coverage" NAME="helper (1) Coverage Results" MODIFIED="1600687524042" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mindbox" />
+    <SUITE FILE_PATH="coverage/Jarvis$db_worker.coverage" NAME="db_worker Coverage Results" MODIFIED="1599326912939" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/jarvis" />
+    <SUITE FILE_PATH="coverage/Jarvis$test.coverage" NAME="test Coverage Results" MODIFIED="1597656426811" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/jarvis" />
+    <SUITE FILE_PATH="coverage/Jarvis$helper.coverage" NAME="helper Coverage Results" MODIFIED="1599404804131" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/jarvis" />
+    <SUITE FILE_PATH="coverage/MindBox$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1600687815101" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mindbox" />
+    <SUITE FILE_PATH="coverage/Jarvis$main.coverage" NAME="main Coverage Results" MODIFIED="1600079708484" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/jarvis" />
+    <SUITE FILE_PATH="coverage/Jarvis$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1600687535598" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mindbox" />
+  </component>
+</project>

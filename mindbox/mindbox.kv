@@ -1,0 +1,26 @@
+#:import WipeTransition kivy.uix.screenmanager.WipeTransition
+#:import CREATE_WINDOW mindbox.windows.window_names.CREATE_WINDOW
+#:import UPDATE_WINDOW mindbox.windows.window_names.UPDATE_WINDOW
+#:import MAIN_WINDOW mindbox.windows.window_names.MAIN_WINDOW
+
+
+
+#:include kv_windows/main.kv
+#:include kv_windows/create.kv
+#:include kv_windows/update.kv
+
+#:include kv_widgets/messages.kv
+
+
+<WindowManager@ScreenManager>:
+    id: manager
+    transition: WipeTransition()
+    MainWindow:
+        id: main_window
+        name: MAIN_WINDOW
+    CreateWindow:
+        id: create_window
+        name: CREATE_WINDOW
+    UpdateWindow:
+        id: update_window
+        name: UPDATE_WINDOW

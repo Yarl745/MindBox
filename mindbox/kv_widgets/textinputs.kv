@@ -1,0 +1,61 @@
+#:import Color kivy.utils.get_color_from_hex
+
+
+<CustomTextInput@TextInput>:
+    font_size: '18dp'
+    bold: True
+    background_color: (0, 0, 0, 0)
+    foreground_color: (1, 1, 1, 1)
+    cursor_color: Color('#ffffff')
+    canvas.after:
+        Color:
+            rgba: Color('#ffffff')
+    canvas.after:
+        Color:
+            rgb: Color('#000000')
+        Ellipse:
+            angle_start:180
+            angle_end:360
+            pos:(self.pos[0] - self.size[1]/2.0, self.pos[1])
+            size: (self.size[1], self.size[1])
+        Ellipse:
+            angle_start:0
+            angle_end:180
+            pos: (self.size[0] + self.pos[0] - self.size[1]/2.0, self.pos[1])
+            size: (self.size[1], self.size[1])
+        Color:
+            rgba: Color('#3f92db')
+        Line:
+            points: self.pos[0] , self.pos[1], self.pos[0] + self.size[0], self.pos[1]
+        Line:
+            points: self.pos[0], self.pos[1] + self.size[1], self.pos[0] + self.size[0], self.pos[1] + self.size[1]
+        Line:
+            ellipse: self.pos[0] - self.size[1]/2.0, self.pos[1], self.size[1], self.size[1], 180, 360
+        Line:
+            ellipse: self.size[0] + self.pos[0] - self.size[1]/2.0, self.pos[1], self.size[1], self.size[1], 360, 540
+
+
+<TextButton@TextInput>:
+    id: text_button
+    color_selected: (0.5, 0, 0 ,1)
+    color_normal: (0, 0, 0, 1)
+    scr_manager: app.root
+    bold: True
+    font_size: 18
+    allow_copy: False
+    readonly: True
+    selected: False
+    background_color:
+        self.color_selected if self.scr_manager.deleting_records.get(self.text, False) else self.color_normal
+    foreground_color: (1, 1, 1, 1)
+    canvas.before:
+        Color:
+            rgba: (1, 1, 1, 1)
+        Line:
+            points: (self.pos[0], self.pos[1], self.pos[0]+self.size[0], self.pos[1])
+        Line:
+            points: (self.pos[0], self.pos[1], self.pos[0], self.pos[1]+self.size[1])
+        Line:
+            points: (self.pos[0]+self.size[0], self.pos[1], self.pos[0]+self.size[0], self.pos[1]+self.size[1])
+
+
